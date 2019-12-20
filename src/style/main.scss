@@ -94,6 +94,10 @@
         align-items: center;
     }
 
+    button {
+        transform: translateY(50%);
+    }
+
     &__generate {
         background-color: #00CB79;
         @include button;
@@ -102,6 +106,23 @@
     &__clear {
         background-color: #45B0E5;
         @include button;
+    }
+
+    &__content {
+        width: 1100px;
+        height: 297px;
+        background-color: #f2f2f2;
+
+        justify-self: center;
+        margin-bottom: 84px;
+        
+        p {
+            line-height: 29px;
+            padding: 50px 47px;
+            font-family: "Montserrat";
+            font-size: 16px;
+            font-weight: 300;
+        }
     }
 }
 
@@ -155,3 +176,4 @@
         border-radius: 50%;
     }
 }
+
