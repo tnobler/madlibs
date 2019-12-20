@@ -7,10 +7,6 @@
         font-family: 'Montserrat';
         font-size: 22px;
         text-align: center;
-        justify-self: center;
-        &:focus {
-            outline: none;
-        }
 }
 
 .gray {
@@ -102,18 +98,25 @@
         align-items: center;
     }
 
+    button:focus {
+        outline: none;
+    }
+
     button {
-        transform: translateY(50%);
+        justify-self: center;
     }
 
     &__generate {
         background-color: #00CB79;
+        transform: translateY(-300px);
         @include button;
     }
 
     &__clear {
+        transform: translateY(50%);
         background-color: #45B0E5;
         @include button;
+        
     }
 
     &__content {
