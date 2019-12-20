@@ -13,4 +13,9 @@ class Home extends Component {
   }
 }
 
+// todo
+
+// content labels
+// generate btn space/card-height
+
 export default Home;
